@@ -1,0 +1,9 @@
+.vscode/
+**/dist/**
+**/build/**
+*.pyc
+/lib/
+/scripts/
+/tcl/
+/include/
+/pip-selfcheck.json

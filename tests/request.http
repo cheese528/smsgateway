@@ -1,0 +1,17 @@
+POST http://localhost:8888/v1/sendsms HTTP/1.1
+content-type: application/json
+
+{
+    "key": "abcdef",
+    "number": "0",
+    "message": "Loopback Test"
+}
+###
+POST http://localhost:8888/v1/sendsms HTTP/1.1
+content-type: application/json
+
+{
+    "key": "abcdef",
+    "number": "xxyournumber",
+    "message": "Loopback Test"
+}
